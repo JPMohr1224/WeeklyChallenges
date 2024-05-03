@@ -47,15 +47,24 @@ namespace ChallengesWithTestsMark8
         public string GetGreeting(string nameOfPerson)
         {
             //throw new NotImplementedException();
-            return ($"Good morning {nameOfPerson}, how are you today?");
+            if(string.IsNullOrWhiteSpace(nameOfPerson))
+            {
+                return "Hello!";
+            }
+            return ($"Hello, {nameOfPerson}!");
 
         }
 
         public string GetHey()
         {
             //throw new NotImplementedException();
-            var hey = Console.ReadLine();
-            return hey;
+            Console.WriteLine("Please enter Hey");
+            string hey = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(hey))
+            {
+                return "HEY!";
+            }
+            return $"{hey.ToUpper()}!";
         }
     }
 }

@@ -7,22 +7,26 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (CharacterIsALetter(c));
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (vals.Length % 2 == 0);
         }
 
         public bool IsNumberEven(int number)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (number % 2 == 0);
         }
 
         public bool IsNumberOdd(int num)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (num % 2 != 0);
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
@@ -32,7 +36,14 @@ namespace ChallengesWithTestsMark8
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+           if (str1.Length > str2.Length)
+            {
+                return str2.Length;
+            } else
+            {
+                return str2.Length;
+            }
         }
 
         public int Sum(int[] numbers)
