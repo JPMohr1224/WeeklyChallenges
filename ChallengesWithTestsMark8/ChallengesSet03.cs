@@ -15,6 +15,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
+            if (numbers == null) { return false; }
             int sum = 0;
             foreach (int num in numbers)
             {
@@ -26,7 +27,7 @@ namespace ChallengesWithTestsMark8
 
             }
 
-            return sum % 2 != 0;
+            return sum % 2 != 0 ;
 
 
 
