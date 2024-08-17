@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jamesmohr/Desktop/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectUniqueName": "/Users/jamesmohr/Desktop/ /WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "projectName": "ChallengesWithTestsMark8",
-      "projectPath": "/Users/jamesmohr/Desktop/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectPath": "/Users/jamesmohr/Desktop/ /WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "packagesPath": "/Users/jamesmohr/.nuget/packages/",
-      "outputPath": "/Users/jamesmohr/Desktop/repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/",
+      "outputPath": "/Users/jamesmohr/Desktop/ /WeeklyChallenges/ChallengesWithTestsMark8/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jamesmohr/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
       }
     }
   }
