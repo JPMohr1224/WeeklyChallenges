@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace ChallengesWithTestsMark8
@@ -117,4 +116,5 @@ namespace ChallengesWithTestsMark8
         }
     }
 }
+
 
